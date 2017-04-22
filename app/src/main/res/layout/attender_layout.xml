@@ -23,9 +23,8 @@
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:textColor="#000"
-            android:textSize="36sp"
-            android:typeface="monospace"
-            android:textStyle="bold"
+            android:textSize="28sp"
+            android:typeface="serif"
             tools:text="126574915"
             android:id="@+id/attender_qr_code"/>
     </LinearLayout>
@@ -48,7 +47,7 @@
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:textColor="#000"
-            android:textSize="20sp"
+            android:textSize="18sp"
             tools:text="Tarek Mohamed Abdalla"
             android:id="@+id/attender_name"/>
     </LinearLayout>
@@ -164,29 +163,8 @@
             android:paddingRight="8dp"
             android:textColor="#000"
             android:textSize="20sp"
-            tools:text="Red"
+            android:textStyle="bold"
+            android:text="Red"
             android:id="@+id/attender_fav_color"/>
     </LinearLayout>
-
-
-
-    <LinearLayout
-        android:layout_marginTop="32dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/attender_button_layout">
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:text="Confirm"
-            android:layout_height="wrap_content"
-            android:id="@+id/attender_confirm"/>
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:text="Cancel"
-            android:layout_height="wrap_content"
-            android:id="@+id/attender_cancel"/>
-    </LinearLayout>
-
 </LinearLayout>

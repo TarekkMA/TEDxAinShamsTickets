@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ticket_blue_50" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Programmed by\nTarek Mohamed Abdalla" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="/tarekkma"
+            android:drawableLeft="@drawable/linkedin_25"
+            android:textAllCaps="false"
+            android:id="@+id/linkedinBTN"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="/tarekkma1"
+            android:drawableLeft="@drawable/facebook_25"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:id="@+id/facebookBTN"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2017 Tarek Mohamed Abdalla\nUnder The MIT License"
+        android:textSize="12sp"
+        android:background="#f6f8fa"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:typeface="monospace"/>
+
+
+</LinearLayout>
