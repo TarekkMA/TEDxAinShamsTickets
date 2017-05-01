@@ -1,7 +1,9 @@
-package com.tmaprojects.tarekkma.tedxainshamstickets;
+package com.tmaprojects.tarekkma.tedxainshamstickets.Utils;
 
 import android.graphics.Color;
 import android.support.annotation.ColorRes;
+
+import com.tmaprojects.tarekkma.tedxainshamstickets.R;
 
 /**
  * Created by tarekkma on 4/22/17.

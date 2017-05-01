@@ -29,5 +29,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
     </string>
-    <string name="empty_list">It\'s like a desert here!\nAdd attenders by clicking on the QR icon.</string>
+    <string name="empty_list">It\'s like a desert here!\nAdd attenders by clicking on the Plus icon.</string>
 </resources>

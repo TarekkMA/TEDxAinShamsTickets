@@ -1,4 +1,4 @@
-package com.tmaprojects.tarekkma.tedxainshamstickets;
+package com.tmaprojects.tarekkma.tedxainshamstickets.Utils;
 
 import android.content.Context;
 import android.content.Intent;

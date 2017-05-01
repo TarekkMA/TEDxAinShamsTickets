@@ -22,12 +22,38 @@
 
     <include layout="@layout/content_main" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/qr_code_white_50" />
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_margin="8dp"
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        app:fab_addButtonPlusIconColor="@color/white"
+        app:fab_addButtonColorNormal="@color/colorAccent"
+        app:fab_addButtonSize="normal"
+        app:fab_labelStyle="@style/menu_labels_style"
+        android:layout_gravity="bottom|end">
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_icon="@drawable/pen_black_50"
+            android:id="@+id/add_manual"
+            app:fab_size="mini"
+            app:fab_title="Add Manually" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            android:id="@+id/scan_qr_code"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/qr_code_black"
+            app:fab_title="Scan Ticket" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
 </android.support.design.widget.CoordinatorLayout>
